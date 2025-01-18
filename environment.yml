@@ -1,7 +1,6 @@
 name: llms
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.11
   - pip
@@ -39,12 +38,6 @@ dependencies:
     - setuptools
     - speedtest-cli
     - langchain
-    - langchain-core
-    - langchain-text-splitters
-    - langchain-openai
-    - langchain-chroma
-    - langchain-community
-    - faiss-cpu
     - feedparser
     - twilio
     - pydub
